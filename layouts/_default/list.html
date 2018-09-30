@@ -7,9 +7,9 @@
 
         {{ $paginator := .Paginate (where .Pages "Section" "posts") }}
         {{ range $paginator.Pages }}   
-            <div class="col-md-4 card">
+            <div class="col-md-4 card panel">
              <a href="{{ .Permalink }}" class="index-anchor">    
-                <div class="panel panel-default">
+                <div class=" panel-default">
                   
                   {{ if .Params.img }}
                   <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
