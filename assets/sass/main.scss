@@ -1,27 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css");
+@import url("https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 // Our variables
-$base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// $base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $base-font-weight: 400;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+// $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+// // Width of the content area
+// $content-width:    800px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+// $on-laptop:        800px;
 
 
 
@@ -42,8 +45,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "bootstrap-readable",
-        "layout",
-        "custom",
-        "syntax-highlighting"
+    "layout",
+    "custom"
+//         // "syntax-highlighting",
 ;
