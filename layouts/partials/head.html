@@ -7,5 +7,6 @@
 
 {{ $main := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed")}}
 <link rel="stylesheet" href="{{ $main.RelPermalink }}">
+<title>{{ .Site.Title }}</title>
 
 </head>
