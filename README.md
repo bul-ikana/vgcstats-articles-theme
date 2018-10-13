@@ -1,14 +1,9 @@
-# Hugo cards
+# ![](https://github.com/bul-ikana/vgcstats/raw/master/icon.png) VGCStats Articles Theme
 
-A Hugo theme, ported from [Webjeda-cards](http://webjeda.com/cards)
+A Hugo theme for the VGCStats articles section, based on the [Hugo Cards](https://github.com/bul-ikana/hugo-cards) theme.
 
-![Screenshot](https://github.com/bul-ikana/hugo-cards/blob/master/images/screenshot.png)
+![Screenshot](images/screenshot.png)
 
-## Features
+## What is different?
 
-Responsive theme built on bootstrap. Easily add disqus, google analytics, social links and a facebook like box.
-
-### Configuration
-
-Please see the sample [`config.toml`](https://github.com/bul-ikana/hugo-cards/blob/master/exampleSite/config.toml).
-
+The main differences from the base Hugo Card theme are, of course, related to the layout. The header from the VGCStats was added, and overall colors were adjusted a bit. This theme also uses Bootstrap 4 instead of Bootstrap 3.
